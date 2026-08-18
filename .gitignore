@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Editor backups
+*.py.save
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw HCUP / NIS data (external, not tracked)
+/NFSDISK/
+
+# Patient-level cohort files (contain hospital admission IDs)
+outputs/cohort.csv
+outputs/cohort_principal_dx.csv

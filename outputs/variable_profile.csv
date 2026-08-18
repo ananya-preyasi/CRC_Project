@@ -1,0 +1,128 @@
+Variable,Data Type,Raw Unique Values,Valid Unique Values,Missing Values,Minimum,Maximum,Suggested Variable Type
+HOSP_NIS,int64,4033,4033,0,1,4181,Identifier
+KEY_NIS,int64,1833376,1833376,0,6,6743713,Identifier
+NIS_STRATUM,int64,96,96,0,1,96,Survey Design Variable
+AGE,int64,32,32,0,18,49,Continuous
+AGE_NEONATE,int64,1,0,0,-9,-9,Constant (Exclude)
+AMONTH,int64,13,12,0,-9,12,Continuous
+AWEEKEND,int64,3,2,0,-9,1,Binary
+DIED,int64,4,3,0,-9,1,Ordinal / Nominal
+DISCWT,float64,73,73,0,4.9814815,5.0038911,Continuous
+DISPUNIFORM,int64,9,8,0,-9,99,Ordinal / Nominal
+DQTR,int64,5,4,0,-9,4,Ordinal / Nominal
+DRG,int64,780,780,0,1,999,Continuous
+DRGVER,int64,2,2,0,40,41,Binary
+DRG_NOPOA,int64,780,780,0,1,999,Continuous
+ELECTIVE,int64,4,3,0,-9,1,Ordinal / Nominal
+FEMALE,int64,4,3,0,-9,1,Ordinal / Nominal
+HCUP_ED,int64,5,5,0,0,4,Ordinal / Nominal
+I10_BIRTH,int64,1,1,0,0,0,Constant (Exclude)
+I10_DELIVERY,int64,2,2,0,0,1,Binary
+I10_DX1,object,15188,15188,393,,,Diagnosis Code
+I10_DX2,object,14811,14811,12598,,,Diagnosis Code
+I10_DX3,object,15652,15652,37544,,,Diagnosis Code
+I10_DX4,object,15898,15898,114967,,,Diagnosis Code
+I10_DX5,object,15665,15665,230807,,,Diagnosis Code
+I10_DX6,object,15374,15374,370806,,,Diagnosis Code
+I10_DX7,object,14893,14893,520836,,,Diagnosis Code
+I10_DX8,object,14354,14354,670152,,,Diagnosis Code
+I10_DX9,object,13766,13766,811028,,,Diagnosis Code
+I10_DX10,object,13180,13180,943020,,,Diagnosis Code
+I10_DX11,object,12724,12724,1059954,,,Diagnosis Code
+I10_DX12,object,12146,12146,1166430,,,Diagnosis Code
+I10_DX13,object,11646,11646,1255963,,,Diagnosis Code
+I10_DX14,object,10997,10997,1334502,,,Diagnosis Code
+I10_DX15,object,10433,10433,1402381,,,Diagnosis Code
+I10_DX16,object,9931,9931,1465587,,,Diagnosis Code
+I10_DX17,object,9384,9384,1519595,,,Diagnosis Code
+I10_DX18,object,8842,8842,1567206,,,Diagnosis Code
+I10_DX19,object,8029,8029,1628125,,,Diagnosis Code
+I10_DX20,object,7440,7440,1660909,,,Diagnosis Code
+I10_DX21,object,6950,6950,1685911,,,Diagnosis Code
+I10_DX22,object,6559,6559,1706670,,,Diagnosis Code
+I10_DX23,object,6245,6245,1723912,,,Diagnosis Code
+I10_DX24,object,5823,5823,1738424,,,Diagnosis Code
+I10_DX25,object,5288,5288,1759133,,,Diagnosis Code
+I10_DX26,object,3946,3946,1792394,,,Diagnosis Code
+I10_DX27,object,3482,3482,1803848,,,Diagnosis Code
+I10_DX28,object,3132,3132,1810463,,,Diagnosis Code
+I10_DX29,object,2891,2891,1814218,,,Diagnosis Code
+I10_DX30,object,2578,2578,1818537,,,Diagnosis Code
+I10_DX31,object,2164,2164,1823060,,,Diagnosis Code
+I10_DX32,object,1617,1617,1826632,,,Diagnosis Code
+I10_DX33,object,1431,1431,1828469,,,Diagnosis Code
+I10_DX34,object,1281,1281,1829461,,,Diagnosis Code
+I10_DX35,object,1136,1136,1830136,,,Diagnosis Code
+I10_DX36,object,1049,1049,1830638,,,Diagnosis Code
+I10_DX37,object,942,942,1831009,,,Diagnosis Code
+I10_DX38,object,875,875,1831317,,,Diagnosis Code
+I10_DX39,object,820,820,1831565,,,Diagnosis Code
+I10_DX40,object,726,726,1831799,,,Diagnosis Code
+I10_INJURY,int64,3,3,0,0,2,Ordinal / Nominal
+I10_MULTINJURY,int64,2,2,0,0,1,Binary
+I10_NDX,int64,41,41,0,0,40,Continuous
+I10_NPR,int64,26,26,0,0,25,Continuous
+I10_PR1,object,13417,13417,522098,,,Procedure Code
+I10_PR2,object,13958,13958,918572,,,Procedure Code
+I10_PR3,object,11831,11831,1287788,,,Procedure Code
+I10_PR4,object,10069,10069,1501583,,,Procedure Code
+I10_PR5,object,8437,8437,1639921,,,Procedure Code
+I10_PR6,object,7055,7055,1719822,,,Procedure Code
+I10_PR7,object,5564,5564,1771685,,,Procedure Code
+I10_PR8,object,4701,4701,1792509,,,Procedure Code
+I10_PR9,object,4025,4025,1804235,,,Procedure Code
+I10_PR10,object,3468,3468,1811344,,,Procedure Code
+I10_PR11,object,3005,3005,1816933,,,Procedure Code
+I10_PR12,object,2560,2560,1820182,,,Procedure Code
+I10_PR13,object,2155,2155,1823260,,,Procedure Code
+I10_PR14,object,1939,1939,1825074,,,Procedure Code
+I10_PR15,object,1686,1686,1826394,,,Procedure Code
+I10_PR16,object,1522,1522,1827418,,,Procedure Code
+I10_PR17,object,1368,1368,1828268,,,Procedure Code
+I10_PR18,object,1230,1230,1828963,,,Procedure Code
+I10_PR19,object,1153,1153,1829503,,,Procedure Code
+I10_PR20,object,995,995,1830206,,,Procedure Code
+I10_PR21,object,918,918,1830672,,,Procedure Code
+I10_PR22,object,824,824,1831060,,,Procedure Code
+I10_PR23,object,761,761,1831431,,,Procedure Code
+I10_PR24,object,685,685,1831632,,,Procedure Code
+I10_PR25,object,608,608,1831801,,,Procedure Code
+I10_SERVICELINE,int64,5,5,0,1,5,Ordinal / Nominal
+LOS,int64,314,313,0,-9999,361,Continuous
+MDC,int64,26,26,0,0,25,Continuous
+MDC_NOPOA,int64,26,26,0,0,25,Continuous
+PAY1,int64,8,7,0,-9,6,Ordinal / Nominal
+PCLASS_ORPROC,int64,2,2,0,0,1,Binary
+PRDAY1,int64,160,159,0,-99,366,Continuous
+PRDAY2,int64,166,165,0,-99,366,Continuous
+PRDAY3,int64,165,164,0,-99,344,Continuous
+PRDAY4,int64,169,168,0,-99,365,Continuous
+PRDAY5,int64,166,165,0,-99,278,Continuous
+PRDAY6,int64,161,160,0,-99,315,Continuous
+PRDAY7,int64,153,152,0,-99,365,Continuous
+PRDAY8,int64,148,147,0,-99,300,Continuous
+PRDAY9,int64,160,159,0,-99,329,Continuous
+PRDAY10,int64,155,154,0,-99,366,Continuous
+PRDAY11,int64,150,149,0,-99,366,Continuous
+PRDAY12,int64,145,144,0,-99,366,Continuous
+PRDAY13,int64,145,144,0,-99,366,Continuous
+PRDAY14,int64,135,134,0,-99,366,Continuous
+PRDAY15,int64,143,142,0,-99,336,Continuous
+PRDAY16,int64,129,128,0,-99,314,Continuous
+PRDAY17,int64,132,131,0,-99,365,Continuous
+PRDAY18,int64,134,133,0,-99,303,Continuous
+PRDAY19,int64,130,129,0,-99,304,Continuous
+PRDAY20,int64,131,130,0,-99,290,Continuous
+PRDAY21,int64,127,126,0,-99,345,Continuous
+PRDAY22,int64,125,124,0,-99,302,Continuous
+PRDAY23,int64,125,124,0,-99,299,Continuous
+PRDAY24,int64,119,118,0,-99,214,Continuous
+PRDAY25,int64,118,117,0,-99,228,Continuous
+TRAN_IN,int64,4,3,0,-9,2,Ordinal / Nominal
+TRAN_OUT,int64,4,3,0,-9,2,Ordinal / Nominal
+YEAR,int64,1,1,0,2023,2023,Constant (Exclude)
+ZIPINC_QRTL,int64,6,5,0,-9,4,Ordinal / Nominal
+TOTCHG_2023,int64,243103,243103,0,-999999999,11129288,Continuous
+PL_NCHS2,int64,3,2,0,-99,22,Binary
+CRC,bool,2,2,0,False,True,Outcome / Exposure
+STEROID_EXPOSURE,bool,2,2,0,False,True,Outcome / Exposure
