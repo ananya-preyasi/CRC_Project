@@ -352,6 +352,14 @@ The following diagnostic and methodological elements are **not currently compute
 
 The current output is an initial, unweighted regression result. Whether survey-weighted analysis, model diagnostics, and sensitivity analyses are required before drawing conclusions should be determined by the research team.
 
+### 6.7 Transition to Systematic Variable Screening
+
+The initial logistic regression described above was an exploratory baseline analysis using a predefined set of six independent variables. Following review, concerns were raised that the variables included in that initial model were not sufficiently justified and that the broader set of available variables in the dataset should be examined more systematically before finalising the variable set for multivariable modelling.
+
+As a result, the analysis moved back to the full set of 127 variables in the cohort dataset, which were profiled for data types, missingness, and variability (Section 7). Based on project discussion, 20 candidate variables were then identified for formal feature screening (Section 8). These 20 variables were screened using mutual information, chi-square tests, and univariate logistic regression as appropriate for their variable types (Sections 9–11).
+
+The purpose of this screening stage is to provide a more systematic, evidence-based foundation for deciding which variables should enter the subsequent multivariable modelling stage. Feature screening does not replace logistic regression; rather, it informs the variable selection process that will precede the final multivariable model. The current next step is to determine a systematic Top-K feature-selection methodology by varying the number of retained variables and evaluating the resulting model (Section 14).
+
 ---
 
 ## 7. Variable Profiling
