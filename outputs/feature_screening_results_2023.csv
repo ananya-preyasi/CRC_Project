@@ -1,0 +1,21 @@
+Year,Variable,Type,Tests Performed,odds_ratio,ci_lower,ci_upper,logistic_p,mutual_information,chi_square,chi_square_p,MI_Rank
+2023,I10_NPR,Continuous,"Univariate Logistic Regression, Mutual Information",1.156,1.1478,1.1642,0.0,0.0344,,,1
+2023,I10_NDX,Continuous,"Univariate Logistic Regression, Mutual Information",0.9977,0.992,1.0034,0.4199,0.018,,,2
+2023,AGE,Continuous,"Univariate Logistic Regression, Mutual Information",1.1696,1.163,1.1763,0.0,0.0154,,,3
+2023,DRG,Nominal,"Chi-square, Mutual Information",,,,,0.0086,419075.1295,0.0,4
+2023,DRG_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0086,418967.8888,0.0,5
+2023,MDC,Nominal,"Chi-square, Mutual Information",,,,,0.0053,58515.7145,0.0,6
+2023,MDC_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0053,58499.3564,0.0,7
+2023,I10_SERVICELINE,Nominal,"Chi-square, Mutual Information",,,,,0.0025,13247.2136,0.0,8
+2023,LOS,Continuous,"Univariate Logistic Regression, Mutual Information",1.0118,1.0098,1.0138,0.0,0.001,,,9
+2023,PCLASS_ORPROC,Nominal,"Chi-square, Mutual Information",,,,,0.0008,2896.263,0.0,10
+2023,ELECTIVE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",3.5855,3.3423,3.8463,0.0,0.0004,1626.2831,0.0,11
+2023,PAY1,Nominal,"Chi-square, Mutual Information",,,,,0.0002,812.623,0.0,12
+2023,FEMALE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.641,0.6218,0.6608,0.0,0.0002,788.8679,0.0,13
+2023,HCUP_ED,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.5595,0.5268,0.5942,0.0,0.0001,459.8672,0.0,14
+2023,AWEEKEND,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.4328,0.3879,0.4829,0.0,0.0001,237.6061,0.0,15
+2023,ZIPINC_QRTL,Ordinal,"Chi-square, Mutual Information",,,,,0.0,157.9454,0.0,16
+2023,TRAN_IN,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.9659,0.9316,1.0016,0.0607,0.0,57.582,0.0,17
+2023,PL_NCHS2,Ordinal,"Chi-square, Mutual Information",,,,,0.0,21.2117,0.0,18
+2023,AMONTH,Ordinal,"Chi-square, Mutual Information",,,,,0.0,15.6234,0.2091,19
+2023,DQTR,Ordinal,"Chi-square, Mutual Information",,,,,0.0,13.9991,0.0073,20

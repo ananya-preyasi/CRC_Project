@@ -1,0 +1,18 @@
+Year,Variable,Type,Tests Performed,odds_ratio,ci_lower,ci_upper,logistic_p,mutual_information,chi_square,chi_square_p,MI_Rank
+2017,I10_NPR,Continuous,"Univariate Logistic Regression, Mutual Information",1.1916,1.1824,1.2009,0.0,0.0372,,,1
+2017,I10_NDX,Continuous,"Univariate Logistic Regression, Mutual Information",1.0151,1.0084,1.0219,0.0,0.024,,,2
+2017,AGE,Continuous,"Univariate Logistic Regression, Mutual Information",1.1475,1.141,1.1541,0.0,0.0159,,,3
+2017,DRG,Nominal,"Chi-square, Mutual Information",,,,,0.0067,410063.3345,0.0,4
+2017,DRG_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0067,409940.2881,0.0,5
+2017,LOS,Continuous,"Univariate Logistic Regression, Mutual Information",1.0173,1.0155,1.0191,0.0,0.0052,,,6
+2017,MDC,Nominal,"Chi-square, Mutual Information",,,,,0.0039,44468.4859,0.0,7
+2017,MDC_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0039,44457.1946,0.0,8
+2017,ELECTIVE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",3.2824,3.0392,3.545,0.0,0.0003,1135.1879,0.0,9
+2017,FEMALE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.536,0.5146,0.5584,0.0,0.0002,765.8182,0.0,10
+2017,PAY1,Nominal,"Chi-square, Mutual Information",,,,,0.0001,555.616,0.0,11
+2017,HCUP_ED,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.6715,0.6324,0.7131,0.0,0.0001,232.612,0.0,12
+2017,AWEEKEND,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.4427,0.3956,0.4954,0.0,0.0001,201.2937,0.0,13
+2017,ZIPINC_QRTL,Ordinal,"Chi-square, Mutual Information",,,,,0.0,138.1831,0.0,14
+2017,TRAN_IN,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.9355,0.8989,0.9736,0.0011,0.0,41.6763,0.0,15
+2017,AMONTH,Ordinal,"Chi-square, Mutual Information",,,,,0.0,9.4798,0.6615,16
+2017,DQTR,Ordinal,"Chi-square, Mutual Information",,,,,0.0,5.8957,0.2071,17

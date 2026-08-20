@@ -21,3 +21,6 @@ Thumbs.db
 # Patient-level cohort files (contain hospital admission IDs)
 outputs/cohort.csv
 outputs/cohort_principal_dx.csv
+
+# Row-level per-year cohort files (derived from restricted-use HCUP data)
+outputs/cohorts/

@@ -1,0 +1,20 @@
+Year,Variable,Type,Tests Performed,odds_ratio,ci_lower,ci_upper,logistic_p,mutual_information,chi_square,chi_square_p,MI_Rank
+2022,I10_NPR,Continuous,"Univariate Logistic Regression, Mutual Information",1.1539,1.1454,1.1625,0.0,0.0354,,,1
+2022,I10_NDX,Continuous,"Univariate Logistic Regression, Mutual Information",0.9979,0.9918,1.004,0.4986,0.0202,,,2
+2022,AGE,Continuous,"Univariate Logistic Regression, Mutual Information",1.1662,1.1594,1.1731,0.0,0.0149,,,3
+2022,DRG,Nominal,"Chi-square, Mutual Information",,,,,0.0079,398429.1694,0.0,4
+2022,DRG_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0079,398304.9937,0.0,5
+2022,MDC,Nominal,"Chi-square, Mutual Information",,,,,0.0048,54175.5157,0.0,6
+2022,MDC_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0048,54162.8469,0.0,7
+2022,LOS,Continuous,"Univariate Logistic Regression, Mutual Information",1.0117,1.0096,1.0138,0.0,0.0041,,,8
+2022,I10_SERVICELINE,Nominal,"Chi-square, Mutual Information",,,,,0.0023,12241.9586,0.0,9
+2022,PCLASS_ORPROC,Nominal,"Chi-square, Mutual Information",,,,,0.0007,2572.9486,0.0,10
+2022,ELECTIVE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",3.6651,3.4018,3.9488,0.0,0.0004,1515.7128,0.0,11
+2022,FEMALE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.6241,0.604,0.6448,0.0,0.0002,759.7271,0.0,12
+2022,PAY1,Nominal,"Chi-square, Mutual Information",,,,,0.0002,604.5513,0.0,13
+2022,HCUP_ED,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.6226,0.5877,0.6596,0.0,0.0001,359.0214,0.0,14
+2022,AWEEKEND,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.4114,0.3661,0.4622,0.0,0.0001,241.5275,0.0,15
+2022,ZIPINC_QRTL,Ordinal,"Chi-square, Mutual Information",,,,,0.0,95.2347,0.0,16
+2022,TRAN_IN,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.9863,0.9487,1.0253,0.485,0.0,74.2665,0.0,17
+2022,AMONTH,Ordinal,"Chi-square, Mutual Information",,,,,0.0,14.6495,0.2612,18
+2022,DQTR,Ordinal,"Chi-square, Mutual Information",,,,,0.0,2.4387,0.6556,19

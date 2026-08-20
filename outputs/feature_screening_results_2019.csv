@@ -1,0 +1,20 @@
+Year,Variable,Type,Tests Performed,odds_ratio,ci_lower,ci_upper,logistic_p,mutual_information,chi_square,chi_square_p,MI_Rank
+2019,I10_NPR,Continuous,"Univariate Logistic Regression, Mutual Information",1.1718,1.1629,1.1808,0.0,0.0355,,,1
+2019,I10_NDX,Continuous,"Univariate Logistic Regression, Mutual Information",1.0084,1.0021,1.0149,0.0093,0.0223,,,2
+2019,AGE,Continuous,"Univariate Logistic Regression, Mutual Information",1.1468,1.1403,1.1533,0.0,0.0156,,,3
+2019,DRG,Nominal,"Chi-square, Mutual Information",,,,,0.007,412025.2894,0.0,4
+2019,DRG_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.007,411960.2673,0.0,5
+2019,LOS,Continuous,"Univariate Logistic Regression, Mutual Information",1.0156,1.0136,1.0176,0.0,0.0047,,,6
+2019,MDC,Nominal,"Chi-square, Mutual Information",,,,,0.0042,48929.8744,0.0,7
+2019,MDC_NOPOA,Nominal,"Chi-square, Mutual Information",,,,,0.0042,48918.7958,0.0,8
+2019,I10_SERVICELINE,Nominal,"Chi-square, Mutual Information",,,,,0.0018,9829.2017,0.0,9
+2019,PCLASS_ORPROC,Nominal,"Chi-square, Mutual Information",,,,,0.0005,2205.4253,0.0,10
+2019,ELECTIVE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",3.4604,3.2076,3.7331,0.0,0.0003,1197.9182,0.0,11
+2019,FEMALE,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.5873,0.5671,0.6082,0.0,0.0002,790.7884,0.0,12
+2019,PAY1,Nominal,"Chi-square, Mutual Information",,,,,0.0001,549.7574,0.0,13
+2019,HCUP_ED,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.6775,0.6397,0.7174,0.0,0.0001,247.5186,0.0,14
+2019,AWEEKEND,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.403,0.3555,0.4569,0.0,0.0001,215.1165,0.0,15
+2019,ZIPINC_QRTL,Ordinal,"Chi-square, Mutual Information",,,,,0.0,128.408,0.0,16
+2019,TRAN_IN,Binary,"Chi-square, Univariate Logistic Regression, Mutual Information",0.9704,0.9322,1.0101,0.1421,0.0,53.8682,0.0,17
+2019,AMONTH,Ordinal,"Chi-square, Mutual Information",,,,,0.0,13.704,0.32,18
+2019,DQTR,Ordinal,"Chi-square, Mutual Information",,,,,0.0,5.36,0.2523,19
